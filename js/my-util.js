@@ -1,3 +1,4 @@
+
 var myObject = {
     firstName:"John",
     lastName: "Doe",
@@ -7,3 +8,5 @@ var myObject = {
 }
 x = myObject.fullName();
 document.getElementById("demo").innerHTML = x; 
+
+document.write("This text comes from an external script.");
